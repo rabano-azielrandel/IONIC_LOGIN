@@ -1,9 +1,33 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>login</ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 <ion-content>
+    <div class="flex-center">
 
+      <ion-card class="cardbg">
+        <ion-card-header>
+          <ion-card-title  class="title">Login</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+
+          <ion-item class="input">
+            <ion-label position="floating" class="labels">Username</ion-label>
+            <ion-input type = "Username"></ion-input>
+          </ion-item>
+
+          <ion-item class="input">
+            <ion-label position="floating" class="labels">Password</ion-label>
+            <ion-input type = "Password"></ion-input>
+          </ion-item>
+
+          <ion-button color="medium" fill="clear" size="full">Forgot password?</ion-button>
+
+          <ion-button class="loginbtn" fill="solid" size="full">Login</ion-button>
+
+        </ion-card-content>
+
+      </ion-card>
+
+    </div>
 </ion-content>
