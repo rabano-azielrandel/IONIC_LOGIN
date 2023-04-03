@@ -1,23 +1,36 @@
 .input{
     border-radius: 5px;
     margin-bottom: 5px;
-    --ion-item-background:#f5f5f5d5;
-    z-index: 2;
-
+    color: white;
 }
+
 .labels{
     color: #5D3FD3 !important;
     font-family: 'Poppins', sans-serif;
 }
+
 .cardbg{
     background-color: #e2dfdf;
 }
+
+.secondarycard{
+    background-color: #66347F;
+}
+
 .title{
     font-size: 24px;
-    color: #5D3FD3;
+    color: #66347F;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+
+.secondarytitle{
+    font-size: 24px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
 ion-button[color="medium"]{
     text-transform: initial;
     font-family: 'Poppins', sans-serif;
@@ -48,3 +61,5 @@ ion-content{
 ion-input{
     color:black;
 }
+
+  
