@@ -1,7 +1,7 @@
 .input{
     border-radius: 5px;
     margin-bottom: 5px;
-    color: white;
+    color: black;
 }
 
 .labels{
@@ -15,6 +15,10 @@
 
 .secondarycard{
     background-color: #66347F;
+}
+
+.tertiarycard{
+    background-color: transparent;
 }
 
 .title{
@@ -46,12 +50,20 @@ ion-button[color="medium"]{
     margin-bottom: 10px;
 }
 
-.registerbtn{
+.signupbtn{
+    width: 345px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     text-transform: initial;
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    color: #5D3FD3;
-    margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
+    --background: #66347F;
+    margin-bottom: 15px;
 }
 
 ion-content{
@@ -62,4 +74,8 @@ ion-input{
     color:black;
 }
 
+.itembg{
+    --ion-item-background: white;
+    color: #66347F;
+}
   
