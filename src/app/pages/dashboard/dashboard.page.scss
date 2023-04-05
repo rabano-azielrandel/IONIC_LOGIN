@@ -1,0 +1,43 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+ion-content{
+    --background: #fff url("/assets/background/purple_gradient.jpg") no-repeat center center / cover;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80%;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.second-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.icon {
+    font-size: 70px;
+    color: black;
+}
+
+.title-card {
+    text-align: center;
+    color: black;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+  
+
+
+  
