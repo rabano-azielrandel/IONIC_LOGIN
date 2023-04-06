@@ -47,20 +47,42 @@
     letter-spacing: 0.5px;
 }
 
-.button-text {
+.button-text {//not the sus
     color: white;
     font-size: 20px;
     text-transform: initial;
+    border: none;
+    box-shadow: none;
 }
 
-.list-item {
-    margin-top: 15px;
-}
-
-.menu-items{
+.menu-items {
     margin: 0px;
+    background-color: transparent;
 
-    ion-icon{
+    ion-icon {
         margin-right: 7px;
     }
+    
+    ion-item {
+        --background: transparent;
+        margin-bottom: 10px;
+    }
+
+    ion-button {
+        color: white;
+        font-size: 20px;
+        text-transform: initial;
+    }
+
+    .selected {
+        border-left: 5px solid;
+        color: #5D3FD3;
+        padding-left: 15px;
+
+        ion-color {
+            color: #5D3FD3;
+        }
+    }
+
 }
+
